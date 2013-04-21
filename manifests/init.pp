@@ -1,4 +1,5 @@
-# This is a placeholder class.
-class template {
-  anchor { 'Hello_World': }
+class rabbitmq {
+  require homebrew
+
+  homebrew::formula { 'rabbitmq': }
 }
